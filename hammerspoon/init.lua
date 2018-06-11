@@ -36,7 +36,9 @@ require('keyboard.delete-words')
 require('keyboard.hyper')
 require('keyboard.markdown')
 require('keyboard.microphone')
-require('keyboard.panes')
+-- Commenting out panes since it interferes with my Control K and I don't
+-- currently use any panes. Maybe in the future it will be more useful.
+-- require('keyboard.panes')
 require('keyboard.super')
 require('keyboard.windows')
 
